@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+  <title>Example Pricing — Demo App</title>
+  <meta name="description" content="Demo App pricing. Free tier and Pro tier.">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "Demo App",
+    "url": "https://demo.example/pricing",
+    "datePublished": "soon",
+    "offers": [
+      { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+      { "@type": "Offer", "price": "$29/mo", "priceCurrency": "USD" }
+    ],
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": 5,
+      "reviewCount": 0
+    },
+    "sameAs": [
+      "twitter.com/demoapp",
+      "https://github.com/demo"
+    ]
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      { "@type": "Question", "name": "How much does Demo App cost?", "acceptedAnswer": { "@type": "Answer", "text": "Free tier and Pro at $29 per month." } },
+      { "@type": "Question", "name": "What entirely fabricated question are we claiming was answered?", "acceptedAnswer": { "@type": "Answer", "text": "This question is not on the page." } }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <h1>Demo App pricing — Free and Pro</h1>
+  <p>Free tier: $0. Pro tier: $19/mo (note: visible price disagrees with schema).</p>
+  <h2>FAQ</h2>
+  <h3>How much does Demo App cost?</h3>
+  <p>Free tier and Pro at $19 per month.</p>
+</body>
+</html>

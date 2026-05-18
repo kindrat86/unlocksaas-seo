@@ -1,0 +1,7 @@
+src
+tests
+examples
+node_modules
+tsconfig.json
+*.log
+.DS_Store
